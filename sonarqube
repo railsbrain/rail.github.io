@@ -1,0 +1,7 @@
+#sonarqube runner behind the proxy.
+
+SONAR_RUNNER_OPTS="-Dhttp.proxyHost=myproxy -Dhttp.proxyPort=80 -Dhttp.nonProxyHosts=my.local.host" 
+
+#took from
+
+http://stackoverflow.com/questions/34544428/sonar-runner-behind-a-proxy
